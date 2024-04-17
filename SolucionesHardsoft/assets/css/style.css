@@ -1,0 +1,32 @@
+.full-width-img {
+    width: 100%;
+    height: auto;
+}
+
+.full-width-img-container {
+    position: relative;
+}
+
+.card-container {
+    max-width: 800px; /* Ajusta el ancho máximo según sea necesario */
+    margin: auto;
+    padding-top: 20px; /* Ajusta el espacio entre la imagen y las tarjetas */
+    margin-top: -100px; /* Ajusta el margen superior negativo para que los cards suban sobre el baner */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #201F49;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1; /* Asegura que el footer esté por debajo del contenido */
+}
+
+.main-container {
+    padding-bottom: 20%; /* Espacio adicional al final del contenido principal para evitar superposiciones */
+}
+
+
